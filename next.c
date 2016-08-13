@@ -2,12 +2,12 @@
 int main(){
 	long int t;
 	scanf("%ld",&t);
-long int res = getnextpal(t);
+long int res = getnxtpal(t);
 printf("%ld",res);
 	
 	return 0;
 }
-int getnextpal(int t){
+int getnxtpal(int t){
 	int rev,i;
 	int temp;
 int s = t;
