@@ -39,8 +39,8 @@ int main(void) {
 	     printf("%d",maxsum);
 	}
 	else
-	{
+	
 	     printf("-1");
-	}
+
 	return 0;
 }
