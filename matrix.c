@@ -5,7 +5,7 @@
 
 int l,m,Row,Col,mat[300][300];
 
-void rotation(int l, int m, int Row, int Col)
+void rotate(int l, int m, int Row, int Col)
 {
        int si,sj,i,j,t,f;
        si = l;
@@ -74,7 +74,7 @@ int main()
               f = k%rot;
               for(i=1;i<=f;i++)
               {
-                     rotation(l,m,Row,Col);
+                     rotate(l,m,Row,Col);
               }
               l++;
               m++;
